@@ -1,7 +1,6 @@
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Hold To Confirm Button
 
-ProgressConfirmButton is button for confirm action with animation 
+button for confirm action with animation 
 
 ## Features
 
