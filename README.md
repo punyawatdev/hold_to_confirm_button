@@ -1,37 +1,55 @@
-## Hold To Confirm Button
+## hold_to_confirm_button
 
-button for confirm action with animation 
+**I am trying to create a Flutter package** :relaxed::relaxed::relaxed:
+**Let's create a package for a Flutter project.** :tada::tada::tada:
 
-## Features
+The `hold_to_confirm_button`  is a button for confirming action with a hold press to animation in a long-press format with animation progress. this package will not be published it on **pub.dev**
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Todo List
+
+- [ ] Fixed the text button can't be flexible
+- [ ] Add custom properties
+- [ ] Add new style
+- [ ] Add text animation effect
+- [ ] Separates the business logic from the UI
+- [ ] Clean source code
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In the `pubspec.yaml` of your flutter project, add the following dependency:
+```yaml
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
+dependencies:
+  ...
+  hold_to_confirm_button: #just sample, package is not published.
+  
+```
+Import it:
 ```dart
-import 'package:hold_to_confirm_button/hold_to_confirm_button.dart';
 
-SizedBox(
-  width: 200,
-  child: HoldToConfirmButton(
-    text: 'Public',
-    holdingText: 'Sure?',
-    onCompleted: () {},
-  ),
-),
+import 'package:hold_to_confirm_button/hold_to_confirm_button.dart'; 
 
 ```
 
-## Additional information
+## Usage
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+
+```dart
+
+HoldToConfirmButton(
+text: 'Public',
+holdingText: 'Sure?',
+height: 64.0, // default: 48.0
+timeCount: 5000, // default: 2000, duration of long-press action => Duration(milliseconds: widget.timeCount).
+timeDelayedCompleted: 500, // default: 500, Delay time before next action or [onCompleted].
+onHold: (bool holding)) { // Not Required
+// When starting the animation 'onTapDown' returns true, or false when the animation is reversed.
+},
+onCompleted: () { // Required
+// Fired when an animation has completed.
+},
+),
+
+```  
+  
