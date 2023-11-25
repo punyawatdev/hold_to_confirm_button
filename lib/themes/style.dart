@@ -13,14 +13,6 @@ const kFontSize3XL = 24.0;
 const kFontSize4XL = 26.0;
 const kFontSize5XL = 28.0;
 
-/// @@ Custom => Text Size
-const kFontSizeBigger1 = 32.0;
-const kFontSizeBigger2 = 36.0;
-const kFontSizeBigger3 = 40.0;
-const kFontSizeBigger4 = 48.0;
-const kFontSizeBigger5 = 56.0;
-const kFontSizeBigger6 = 64.0;
-
 /// @@ Colors
 const kColorPrimary = Colors.blueAccent;
 const kColorPrimaryDark = Colors.blue;
