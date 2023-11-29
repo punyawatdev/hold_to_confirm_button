@@ -38,17 +38,17 @@ import 'package:hold_to_confirm_button/hold_to_confirm_button.dart';
 ```dart
 
 HoldToConfirmButton(
-text: 'Public',
-holdingText: 'Sure?',
-height: 64.0, // default: 48.0
-timeCount: 5000, // default: 2000, duration of long-press action => Duration(milliseconds: widget.timeCount).
-timeDelayedCompleted: 500, // default: 500, Delay time before next action or [onCompleted].
-onHold: (bool holding)) { // Not Required
-// When starting the animation 'onTapDown' returns true, or false when the animation is reversed.
-},
-onCompleted: () { // Required
-// Fired when an animation has completed.
-},
+  text: 'Public',
+  holdingText: 'Sure?',
+  height: 64.0, // default: 48.0
+  timeCount: 5000, // default: 2000, duration of long-press action => Duration(milliseconds: widget.timeCount).
+  timeDelayedCompleted: 500, // default: 500, Delay time before next action or [onCompleted].
+  onHold: (bool holding)) { // Not Required
+    // When starting the animation 'onTapDown' returns true, or false when the animation is reversed.
+  },
+  onCompleted: () { // Required
+    // Fired when an animation has completed.
+  },
 ),
 
 ```  
