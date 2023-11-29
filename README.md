@@ -1,6 +1,7 @@
 ## hold_to_confirm_button
 
 **I am trying to create a Flutter package** :relaxed::relaxed::relaxed:
+
 **Let's create a package for a Flutter project.** :tada::tada::tada:
 
 The `hold_to_confirm_button`  is a button for confirming action with a hold press to animation in a long-press format with animation progress. this package will not be published it on **pub.dev**
@@ -8,11 +9,11 @@ The `hold_to_confirm_button`  is a button for confirming action with a hold pres
 ## Todo List
 
 - [ ] Fixed the text button can't be flexible
-- [ ] Add custom properties
-- [ ] Add new style
-- [ ] Add text animation effect
 - [ ] Separates the business logic from the UI
-- [ ] Clean source code
+- [ ] Add custom properties
+- [ ] Add new button style
+- [ ] Add text animation effect
+- [ ] Clean the source code
 
 
 ## Getting started
@@ -22,7 +23,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 
 dependencies:
   ...
-  hold_to_confirm_button: #just sample, package is not published.
+  hold_to_confirm_button: #sample, package is not published.
   
 ```
 Import it:
